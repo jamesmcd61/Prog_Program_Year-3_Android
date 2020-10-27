@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroudforscreens">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="335dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        app:srcCompat="@drawable/lowwerbody" />
+
+    <Button
+        android:id="@+id/BtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttons"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.262" />
+    <!--https://www.google.com/search?q=leg+workout&tbm=isch&ved=2ahUKEwiKg7Pg6vvnAhVM8IUKHXPXBjwQ2-cCegQIABAA&oq=leg+workout&gs_l=img.3..0i67l10.202691.204859..205825...2.0..0.381.1835.2-6j1......0....1..gws-wiz-img.......0i7i30j0i7i5i30j0i8i7i30.mGKhmUcsM5s&ei=wQFdXsqeJszglwTzrpvgAw&bih=644&biw=1309#imgrc=52YIUow3M4RRhM-->
+</androidx.constraintlayout.widget.ConstraintLayout>

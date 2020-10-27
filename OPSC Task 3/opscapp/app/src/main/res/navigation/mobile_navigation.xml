@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.opsc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_graphing"
+        android:name="com.example.opsc.ui.graphing.GraphingFragment"
+        android:label="Graphing"
+        tools:layout="@layout/fragment_graphing" />
+
+    <fragment
+        android:id="@+id/nav_routing"
+        android:name="com.example.opsc.ui.routing.RoutingFragment"
+        android:label="Routing"
+        tools:layout="@layout/fragment_routing" />
+
+    <fragment
+        android:id="@+id/nav_workouts"
+        android:name="com.example.opsc.ui.workouts.WorkoutsFragment"
+        android:label="Workouts"
+        tools:layout="@layout/fragment_workouts" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.opsc.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "304582800768",
+    "firebase_url": "https://poeopsc-e2c33.firebaseio.com",
+    "project_id": "poeopsc-e2c33",
+    "storage_bucket": "poeopsc-e2c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304582800768:android:352bbfcecf14ef2e60fd65",
+        "android_client_info": {
+          "package_name": "com.example.opsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304582800768-8reu2bm719880vodsqqphthmfq53jh8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opsc",
+            "certificate_hash": "e26805427519130230baa21e7ec0edc90a37dcf4"
+          }
+        },
+        {
+          "client_id": "304582800768-qifotnpo9kifku8vhl13qrkol91k82e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Knqsg7v0OdAVu1CyD7HHrGa6xBBsL14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304582800768-qifotnpo9kifku8vhl13qrkol91k82e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
